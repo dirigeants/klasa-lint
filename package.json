@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-klasa",
+  "version": "0.0.1",
+  "homepage": "https://klasa.js.org/",
+  "bugs": {
+    "url": "https://github.com/dirigeants/klasa-lint/issues"
+  },
+  "license": "MIT",
+  "author": "BDistin",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dirigeants/klasa-lint.git"
+  },
+  "peerDependencies": {
+    "eslint": ">=4.16.0"
+  },
+  "engines": {
+    "node": ">=8.5.0"
+  }
+}
