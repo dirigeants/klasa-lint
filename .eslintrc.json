@@ -4,12 +4,7 @@
 		"node": true,
 		"es6": true
 	},
-	"parserOptions": {
-		"ecmaVersion": 2018,
-		"ecmaFeatures": {
-			"experimentalObjectRestSpread": true
-		}
-	},
+	"parserOptions": { "ecmaVersion": 2018 },
 	"rules": {
 		"no-extra-parens": ["warn", "all", {
 			"nestedBinaryExpressions": false
