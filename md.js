@@ -12,6 +12,7 @@ module.exports = {
 		'no-undef': 0,
 		'no-invalid-this': 0,
 		'no-empty-function': 0,
-		'no-unused-expressions': 0
+		'no-unused-expressions': 0,
+		'getter-return': 0
 	}
 };
