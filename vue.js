@@ -22,6 +22,7 @@ module.exports = {
 			alignAttributesVertically: true,
 			ignores: []
 		}],
+		'vue/no-v-html': 0,
 		'vue/component-name-in-template-casing': 0,
 		'vue/max-attributes-per-line': 0,
 		'vue/require-prop-types': 0
