@@ -11,5 +11,10 @@ module.exports = {
 	plugins: [
 		'@typescript-eslint'
 	],
-	rules: { '@typescript-eslint/interface-name-prefix': 0 }
+	rules: {
+		'@typescript-eslint/interface-name-prefix': 0,
+		indent: 'off',
+		'@typescript-eslint/indent': ['error', 'tab'],
+		'valid-jsdoc': 'off'
+	}
 };
