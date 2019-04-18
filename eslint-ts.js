@@ -11,5 +11,5 @@ module.exports = {
 	plugins: [
 		'@typescript-eslint'
 	],
-	rules: { '@typescript-eslint/interface-name-prefix': false }
+	rules: { '@typescript-eslint/interface-name-prefix': 0 }
 };
