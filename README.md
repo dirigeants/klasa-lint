@@ -11,6 +11,8 @@ npm i --save-dev dirigeants/klasa-lint
 	"extends": "klasa"
 }
 ```
+requires:
+* eslint
 
 ## markdown codeblock eslint rules
 ```json
@@ -18,6 +20,20 @@ npm i --save-dev dirigeants/klasa-lint
 	"extends": "klasa/md"
 }
 ```
+requires:
+* eslint
+* eslint-plugin-markdown
+
+## eslint-typescript rules
+```json
+{
+	"extends": "klasa/eslint-ts"
+}
+```
+requires:
+* eslint
+* @typescript-eslint/parser
+* @typescript-eslint/eslint-plugin
 
 ## tslint rules
 ```json
@@ -25,6 +41,8 @@ npm i --save-dev dirigeants/klasa-lint
 	"extends": "eslint-config-klasa/ts"
 }
 ```
+requires:
+* tslint
 
 ## eslint vue rules
 ```json
@@ -32,3 +50,6 @@ npm i --save-dev dirigeants/klasa-lint
 	"extends": "klasa/vue"
 }
 ```
+requires:
+* eslint
+* eslint-plugin-vue
