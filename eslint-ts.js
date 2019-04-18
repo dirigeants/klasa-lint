@@ -17,7 +17,7 @@ module.exports = {
 		'@typescript-eslint/indent': ['error', 'tab'],
 		'valid-jsdoc': 'off',
 		'@typescript-eslint/no-explicit-any': 0,
-		'@typescript-eslint/member-delimiter-style': {
+		'@typescript-eslint/member-delimiter-style': ['error', {
 			multiline: {
 				delimiter: 'comma',
 				requireLast: false
@@ -38,6 +38,6 @@ module.exports = {
 					}
 				}
 			}
-		}
+		}]
 	}
 };
