@@ -12,6 +12,10 @@ module.exports = {
 		'@typescript-eslint'
 	],
 	rules: {
+		'no-extra-parens': 'off',
+		'@typescript-eslint/no-extra-parens': ["warn", "all", {
+			"nestedBinaryExpressions": false
+		}],
 		'@typescript-eslint/interface-name-prefix': 0,
 		indent: 'off',
 		'@typescript-eslint/indent': ['error', 'tab'],
